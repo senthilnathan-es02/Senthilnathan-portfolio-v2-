@@ -19,7 +19,7 @@ function App() {
   return (
     <section className='container'>
       <Navbar />
-    
+
       <section className='home-section' id='Home'>
 
         <section className='home-icons'>
@@ -54,7 +54,11 @@ function App() {
             <img className='about-img' src={img} alt="about-img" />
           </section>
           <section className='about-details'>
-            <p>My name is Senthilnathan, and I'm from Theni, born into a family of weavers. Currently, I'm a student at Freshworks STS Software Academy, mastering web technologies like HTML, CSS, JavaScript and Bootstrap. FSSA has transformed my life, and my ultimate goal is to become a skilled Full-stack developer.</p>
+            <p>Hello everyone, my name is Senthilnathan, and I’m from Theni. I come from a family of weavers. Currently, I’m a student at the Freshworks STS Software Academy, where I’m building a strong foundation in frontend technologies.
+
+              As part of my learning, I developed a flight ticket booking platform, which helped me improve my UI/UX skills and understand how to design the flow of a web page.
+
+              My short-term goal is to work on real-world projects to gain hands-on experience, and my long-term goal is to become a skilled full-stack developer.</p>
             <button>Download CV <span><GrDocumentPdf /></span></button>
           </section>
         </section>
